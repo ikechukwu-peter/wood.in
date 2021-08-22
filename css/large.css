@@ -16,7 +16,7 @@
  display: flex;
 
     }
- ul {
+ .ul-link {
  display: flex;
  margin-left: 3rem;
 }
@@ -114,6 +114,16 @@ main .intro {
     .features {
     padding: 2rem;
 } 
+
+.discount-image {
+    height: 75vh;
+    width: 62rem;
+}
+
+.sofa-details {
+    text-align: center;
+    margin: 10rem 3rem 0 1rem;
+}
 .service-text p{
     font-size: 1.4rem;
 }
@@ -122,7 +132,28 @@ main .intro {
 }
 
 .col-images {
-justify-content: space-between;
+justify-content: space-around;
 }
- 
+
+.test-p {
+    margin: 1rem 9rem;
+}
+
+.ul-block{
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+input[type="text"] {
+    width: 25%;
+}
+.cta {
+    width: 10%;
+}
+.quick-links strong {
+    font-size: 1rem;
+}
+
+.logo-text {
+    font-size: 4em;
+}
 }
