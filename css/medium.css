@@ -1,0 +1,132 @@
+ @media only screen and  (min-width: 600px){
+  html, body {
+        height: 80%;
+    }
+    .grid-top {
+       gap: 30rem;
+    }
+       .menu-btn {
+        justify-self:end;
+        padding-right: 20px;
+        font-size: 1.5rem;
+       } 
+      
+    .logo-text {
+        font-size: 3rem;
+      }
+    .intro-text {
+        margin-top: 3.5rem;
+        font-size: 2.5rem;
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+      }
+      
+.intro-info {
+    margin-right: 6rem;
+    margin-left: 6rem;
+    font-size: 1.5rem;
+   }
+
+   .collection-image{
+       display: flex;
+       align-items: center;
+          }
+          .collections div {
+                      padding: 10px;
+        }
+
+        .sofa-section {
+            flex-direction: row;
+            justify-items: center;
+          
+          }
+          .discount-image {
+            width: 400px;
+            margin-left: 1rem;
+            margin-right: 1rem;
+           
+          }
+          .dis-block {
+            margin: 0.7rem auto;
+            width: 7rem;
+        }
+        .services{
+            margin-top: 30px;
+        }
+        .services div {
+            padding-top: 10px;
+            padding-bottom: 10px;
+          }
+        .service-items{
+            display: flex;
+            align-items: center;
+        }
+          .blog-pics div img {
+          width: 20rem;
+          height: 11rem;
+        
+      }
+      .img-sub {
+               margin: 0 10rem;
+    }
+    .feature {
+      width: 70%;
+    padding: 1.5rem;
+    }
+
+    .service-text {
+      margin: 3rem 9rem 1rem 9rem;
+    }
+    .btn-max{
+      width: 30%;
+          }
+     .btn-min {
+       width: 50%;
+   
+  }
+     .left-side {
+      margin: 0 0.5rem;
+    }
+     
+
+.col-images {
+   flex-direction: row;
+    
+}
+.bolder {
+  font-size: 1.2rem;
+}
+.test-head {
+    margin: 0 14rem 0 14rem;
+}
+.test-container {
+  flex-direction: row;
+  
+  
+}
+.test-p {
+  margin: 0.7rem;
+}
+
+footer section {
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
+
+}
+.quick-links {
+  margin-top: 4.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-container {
+  text-align: center;
+  margin: 7rem 0;
+}
+
+.services div {
+  text-align: center;
+  margin: 0 1rem 0 1rem;
+}
+
+}
+

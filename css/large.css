@@ -1,0 +1,103 @@
+@media only screen and  (min-width: 1024px){
+    .navigation {
+        display: flex;
+        padding-bottom: 2rem;
+    }
+    .logo {
+        font-size: 4rem;  
+        margin-right: 13rem;
+    }
+    
+    
+    .menu-btn {
+    display: none;
+       }
+.menu-items {
+ display: flex;
+
+    }
+ ul {
+ display: flex;
+ margin-left: 3rem;
+}
+.navigation div ul li  {
+    margin-left: 5rem;
+}
+.menu-icons {
+    padding-right: 1.5rem;
+    font-size: 1.3rem;
+}
+.menu-icons-large{
+    margin-top: 3rem;
+    margin-left: 29rem;
+}
+
+
+.grid-top{
+    display: inline;
+}
+
+.menu {
+    margin-left: 3rem;
+}
+
+/* NAVBAR ENDS */
+
+main .intro {
+    margin-top: 3rem;
+    padding-bottom: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+.intro-image {
+    margin-right: 10rem;
+    width: 50vh;
+    margin-top: 18rem;
+}
+  .intro-text {
+    margin-top: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  .intro-info {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 1.5rem;
+  
+   } 
+   
+   button {
+    width: 20%;
+    font-size: 1rem; 
+}
+
+
+.collections div {
+    padding: 0 4rem;
+}
+.collections button {
+    width: 80%;
+    font-size: 1rem; 
+}
+.products {
+    font-size: 1.6rem;
+}
+.products-title {
+    font-size: 1.8rem;
+}
+.services > strong {
+    font-size: 1.8rem;
+}
+.services-info {
+    font-size: 1.6rem;
+}
+.services div div strong i {
+    font-size: 3rem;
+}
+
+}
