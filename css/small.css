@@ -106,11 +106,10 @@ img:hover {
   transform: scale(1.1);
 }
 .grid-top {
-  position: static;
- display: grid;
- grid-template-columns: 1fr 1fr;
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
  grid-gap: 17.5rem;
- align-self: center;
  z-index: 9999;
 }
 .menu-btn {

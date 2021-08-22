@@ -19,16 +19,13 @@
  .ul-link {
  display: flex;
 }
-.navigation div ul li  {
-    margin-left: 5rem;
-}
 .menu-icons {
-    padding-right: 1.5rem;
+    padding-right: 1.2rem;
     font-size: 1.3rem;
 }
 .menu-icons-large{
     margin-top: 3rem;
-    margin-left: 29rem;
+    margin-left: 20rem;
 }
 
 
