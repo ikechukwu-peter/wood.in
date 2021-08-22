@@ -289,10 +289,7 @@ main .intro {
 .service-text {
   margin: 3rem;
 }
-.collection-head{
-    margin: 0 5rem ;
 
-}
 .collection-image {
   text-align: center;
 }
@@ -312,13 +309,7 @@ main .intro {
 
  /* TESTIMONIAL */
 
- /* .testimonial{
-  text-align: center;
- } */
- .test-head {
-  margin: 0 7rem 0 7rem;
- }
- .test-container {
+  .test-container {
   display: flex;
   align-items: center;
   flex-direction: column;
