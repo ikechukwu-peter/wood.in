@@ -48,7 +48,6 @@ body { display: grid; grid-template-rows: auto 1fr auto; }
    font-family: 'Sacramento', cursive;
     font-size: 2rem;
     text-align:left;
-    margin:0  auto;
     padding-left: 2rem;
     cursor: pointer;
   }
