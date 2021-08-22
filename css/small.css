@@ -1,6 +1,7 @@
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -108,7 +109,7 @@ img:hover {
    display: flex;
   align-items: center;
   justify-content: space-between;
- grid-gap: 17.5rem;
+  grid-gap: 12.5rem;
  z-index: 9999;
 }
 .menu-btn {
