@@ -1,7 +1,4 @@
  @media only screen and  (min-width: 600px){
-  html, body {
-        height: 80%;
-    }
     .grid-top {
        gap: 30rem;
     }

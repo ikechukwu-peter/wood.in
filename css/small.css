@@ -14,7 +14,6 @@ html {
 html, body {
 font-family: 'Sanchez', serif;
 background-color: var(--theme-color);
-height: 100%;
 }
 
 :root {
