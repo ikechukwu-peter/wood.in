@@ -6,6 +6,7 @@
     .logo {
         font-size: 4rem;  
         margin-right: 13rem;
+        padding-left: 4rem;
     }
     
     
@@ -19,14 +20,20 @@
  .ul-link {
  display: flex;
 }
+.pad {
+    padding-left: 3rem;
+}
 .menu-icons {
     padding-right: 1.2rem;
     font-size: 1.3rem;
 }
-.menu-icons-large{
-    margin-top: 3rem;
-    margin-left: 20rem;
-}
+
+    .menu-icons-large {
+        display: flex;
+        align-items: center;
+        margin-left: 20rem;
+    }
+
 
 
 .grid-top{
