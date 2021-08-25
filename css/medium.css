@@ -1,17 +1,52 @@
- @media only screen and  (min-width: 600px){
-  .navbar {
+ @media only screen and  (min-width: 768px){
+   /* NAVBAR */
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+   
   }
+  .menu {
+    width: 40rem;
 
+  }
   .menu ul {
+    flex-direction: row;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    .icons-menu {
+      width: 20%;
+  }
+  .menu, .icons-menu {
     display: flex;
+    flex-direction: row;
+    
   }
-  .menu li a {
-    display: block;
-    padding: 1rem;
-  }
+.hamburger{
+  display: none;
+}
+/* GENERAl */
+.btn-max{
+  width: 30%;
+      }
+      .btn-min {
+        width: 60%;
+        font-size: 1rem;
+    }
+
+ .left-side {
+  margin: 0 0.5rem;
+}
+.scroll {
+  width: 10%;
+  
+}
+/* MAIN */
    .intro-text {
         margin-top: 3.5rem;
         font-size: 2.5rem;
@@ -24,15 +59,21 @@
     margin-left: 6rem;
     font-size: 1.5rem;
    }
-
+   .intro-elem {
+    margin: 7rem 3rem;
+    text-align: center;
+}
    .collection-image{
        display: flex;
        align-items: center;
           }
           .collections div {
-         padding: 10px;
+            padding: 10px;
+            margin: 0 1rem;
+            width: 100%;
         }
 
+        /* SOFA */
         .sofa-section {
             flex-direction: row;
             justify-items: center;
@@ -64,6 +105,13 @@
           height: 11rem;
         
       }
+      .col-images {
+       justify-content: space-evenly;   
+    }
+      .col-images div img {
+        width: 100%;
+        height: max-content;
+          }
       .img-sub {
                margin: 0 10rem;
     }
@@ -75,18 +123,10 @@
     .service-text {
       margin: 3rem 9rem 1rem 9rem;
     }
-    .btn-max{
-      width: 30%;
-          }
-     .btn-min {
-       width: 50%;
    
-  }
-     .left-side {
-      margin: 0 0.5rem;
-    }
+  
      
-
+/* COLLECTIONX */
 .col-images {
    flex-direction: row;
     
@@ -104,6 +144,8 @@
   margin: 0.7rem;
 }
 
+
+/* FOOTER */
 footer section {
   grid-template-columns: 1fr 3fr;
   gap: 1rem;

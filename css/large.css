@@ -1,13 +1,17 @@
 @media only screen and  (min-width: 1024px){
+    /* NABAR */
     .logo {
         font-size: 4rem;  
-   
+    }
+    .logo-text {
+        font-size: 4em;
     }
 .pad {
     padding-left: 1.5rem;
 }
 /* NAVBAR ENDS */
 
+/* MAIN */
 main .intro {
     margin-top: 3rem;
     padding-bottom: 8rem;
@@ -35,15 +39,26 @@ main .intro {
     margin-bottom: 1.5rem;
   
    } 
+   /* MAIN ENDS */
    
+   /* GENERAL */
    button {
     width: 20%;
     font-size: 1rem; 
 }
-
+input[type="text"] {
+    width: 25%;
+}
+.scroll {
+    width: 5%;
+    
+  }
+/* COLLECTIONS */
 
 .collections div {
-    padding: 0 4rem;
+    padding: 10px;
+    margin: 0 9rem;
+    width: 100%;
 }
 .collections button {
     width: 80%;
@@ -62,6 +77,8 @@ main .intro {
 .services div div strong i {
     font-size: 3rem;
 }
+
+/* BLOG */
 .blog-image {
     display: flex;
     align-items: center;
@@ -85,6 +102,7 @@ main .intro {
     width: 62rem;
 }
 
+/* SOFA */
 .sofa-details {
     text-align: center;
     margin: 10rem 3rem 0 1rem;
@@ -101,16 +119,26 @@ justify-content: space-around;
 }
 
 .test-p {
+    font-size: 1.5rem;
     margin: 1rem 9rem;
 }
+.sofa-details p {
+    font-size: 1.5rem;
+}
+.collections div{
+    font-size: 1.2rem;
+}
+.col-images div img {
+    width: 30rem;
+    height: 70vh;
+}
+
 
 .ul-block{
     flex-direction: column;
     font-size: 1.3rem;
 }
-input[type="text"] {
-    width: 25%;
-}
+
 .cta {
     width: 10%;
 }
@@ -118,7 +146,4 @@ input[type="text"] {
     font-size: 1rem;
 }
 
-.logo-text {
-    font-size: 4em;
-}
 }
