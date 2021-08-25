@@ -19,7 +19,7 @@ background-color: var(--theme-color);
 max-width: 100%;
 overflow-x: hidden;
 }
-body { display: grid; grid-template-rows: auto 1fr auto; margin: 0 auto;}
+body { display: grid; grid-template-rows: auto 1fr auto; }
 
 :root {
   --theme-color: #ffffff;
