@@ -21,7 +21,8 @@ height: 100%;
 body {
    display: grid;
    grid-template-rows: auto 1fr auto; 
-   width: auto;
+   width: auto !important;
+   overflow-x: hidden !important;
 }
 
 :root {
@@ -71,7 +72,6 @@ ul li a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   transition: opacity 5s;
    }
     .preloader h1 {
@@ -102,14 +102,15 @@ opacity: 0;
   padding: 16px 32px;
   border-bottom: 3px solid var(--secondary-color);
   overflow: hidden;
+
  } 
- main {
-  width: auto;
- }
  .container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  margin: 0 auto;
  }
 
 .menu {
@@ -243,7 +244,7 @@ transition: all 0.4s ease-in;
 
   .dis-block {
     display: block;
-    margin-left: 17rem;
+    margin-left: 8rem;
   }
   .btn-max {
     height: 35px;
