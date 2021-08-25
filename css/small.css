@@ -103,12 +103,12 @@ opacity: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
+ }
 
 .menu {
 display: none;
   width: 100%;
-}
+ }
 .menu ul {
 display: flex;
 flex-direction: column;
@@ -148,11 +148,10 @@ padding: .6rem .5rem;
 }
 .menu.is-active{
 display: flex;
-transition: 3s;
+transition: all 0.4s ease-in;
 }
 .icons-menu.is-active{
 display: block;
-transition: 3s;
 transition: all 0.4s ease-in;
 }
 .hamburger {
@@ -260,10 +259,7 @@ transition: all 0.4s ease-in;
   /* GENERAL ENDS */
 
     /* MAIN STARTS */
-    main {
-      margin: 0 auto;
-    }
-    main .intro {
+       main .intro {
       background-color: var(--accent-color);
       display: flex;
       flex-direction: column;
