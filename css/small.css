@@ -16,9 +16,6 @@ html {
 html, body {
 font-family: 'Sanchez', serif;
 background-color: var(--theme-color);
-max-width: 100%;
-overflow-x: hidden;
-height: 100%;
 }
 body { display: grid; grid-template-rows: auto 1fr auto; }
 
