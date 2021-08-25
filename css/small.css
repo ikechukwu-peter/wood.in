@@ -260,6 +260,9 @@ transition: all 0.4s ease-in;
   /* GENERAL ENDS */
 
     /* MAIN STARTS */
+    main {
+      margin: 0 auto;
+    }
     main .intro {
       background-color: var(--accent-color);
       display: flex;
