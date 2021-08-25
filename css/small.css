@@ -21,6 +21,7 @@ height: 100%;
 body {
    display: grid;
    grid-template-rows: auto 1fr auto; 
+   width: auto;
 }
 
 :root {
@@ -92,8 +93,7 @@ opacity: 0;
  }
 
  nav {
-   width: auto;
-  position: fixed;
+   position: fixed;
   top:0;
   left: 0;
   right: 0;
@@ -103,6 +103,9 @@ opacity: 0;
   border-bottom: 3px solid var(--secondary-color);
   overflow: hidden;
  } 
+ main {
+  width: auto;
+ }
  .container {
   display: flex;
   flex-direction: column;
