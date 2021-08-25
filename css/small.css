@@ -17,7 +17,7 @@ html, body {
 font-family: 'Sanchez', serif;
 background-color: var(--theme-color);
 }
-body { display: grid; grid-template-rows: auto 1fr auto; }
+body { display: grid; grid-template-rows: auto 1fr auto; min-height: 120%; width: 100%;}
 
 :root {
   --theme-color: #ffffff;
