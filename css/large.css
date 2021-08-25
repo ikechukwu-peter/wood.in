@@ -67,7 +67,9 @@ input[type="text"] {
 .products {
     font-size: 1.6rem;
 }
-
+.sofa-text{
+    font-size: 2rem;
+}
 .large-strong {
     font-size: 1.8rem;
 }

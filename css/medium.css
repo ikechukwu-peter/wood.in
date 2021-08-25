@@ -63,6 +63,10 @@
     margin: 7rem 3rem;
     text-align: center;
 }
+.intro button{
+  font-size: 1.3rem;
+}
+
    .collection-image{
        display: flex;
        align-items: center;
@@ -72,7 +76,20 @@
             margin: 0 1rem;
             width: 100%;
         }
-
+        .collections button {
+          width: 90%;
+          font-size: 1.1rem; 
+        }
+        .collections div p {
+          font-size: 1.2rem;
+        }
+ .large-strong{
+   font-size: 1.7rem;
+ }
+ .sofa-text{
+   font-size: 1.5rem;
+ }
+      
         /* SOFA */
         .sofa-section {
             flex-direction: row;
@@ -89,6 +106,11 @@
             margin: 0.7rem auto;
             width: 7rem;
         }
+        .sofa-section button {
+          width: 40%;
+          font-size: 1.1rem; 
+        }
+        /* SERVICES */
         .services{
             margin-top: 30px;
         }
@@ -100,6 +122,11 @@
             display: flex;
             align-items: center;
         }
+        .services-info {
+          font-size: 1.5rem;
+        }
+
+        /* BLOG */
           .blog-pics div img {
           width: 20rem;
           height: 11rem;
