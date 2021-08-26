@@ -19,13 +19,15 @@
         margin-left: 10rem;
         margin-right: 10rem;
         margin-bottom: 1.5rem;
+      
        } 
+
        
    /* MAIN ENDS */
    
    /* GENERAL */
    button {
-    width: 15%;
+   width: 15%;
     font-size: 1rem; 
 }
 input[type="text"] {
@@ -58,7 +60,12 @@ input[type="text"] {
 .features {
     padding: 2rem;
    } 
-    
+   
+   .discount-image {
+       height: 75vh;
+       width: 62rem;
+   }
+   
    /* SOFA */
    .sofa-details {
        text-align: center;
@@ -76,16 +83,21 @@ input[type="text"] {
    }
    
    .test-p {
-       font-size: 1.5rem;
-       margin: 1rem 9rem;
+       font-size: 1rem;
+       margin: 1rem 2rem;
    }
    .sofa-details p {
-       font-size: 1.5rem;
-   }
-   .collections div{
        font-size: 1.2rem;
    }
-      .ul-block{
+   .collections div{
+       font-size: 1rem;
+   }
+   .col-images div img {
+       width: 30rem;
+       height: 70vh;
+   }
+   
+   .ul-block{
        flex-direction: column;
        font-size: 1.3rem;
    }
