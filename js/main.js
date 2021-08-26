@@ -58,7 +58,7 @@ let text = () => {
 
 window.onload = () => {
     text()
-
+    AOS.init()
 }
 
 
