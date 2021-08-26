@@ -1,4 +1,7 @@
  @media only screen and  (min-width: 768px){
+   img{
+     object-fit: fill;
+   }
    /* NAVBAR */
   .container {
     max-width: 1280px;
@@ -56,7 +59,7 @@ main .intro {
  }
    .intro-text {
         margin-top: 3.5rem;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         margin-right: 2.5rem;
         margin-left: 2.5rem;
       }
@@ -64,7 +67,7 @@ main .intro {
 .intro-info {
     margin-right: 6rem;
     margin-left: 6rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
    }
   
     .intro-elem {
@@ -76,7 +79,7 @@ main .intro {
 }
 
 .intro-image {
-  width: 24%;
+  width: 54%;
 }
 /* COLLECTIONS */
    .collection-image{
@@ -96,10 +99,10 @@ main .intro {
           font-size: 1.2rem;
         }
  .large-strong{
-   font-size: 1.7rem;
+   font-size: 1.4rem;
  }
  .sofa-text {
-  font-size: 1.9rem;
+  font-size: 1.3rem;
   margin: 2rem 6rem;
 }
       
@@ -112,7 +115,7 @@ main .intro {
           .sofa-details {
             text-align: center;
             margin: 0 3rem 0 3rem;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
         
           .discount-image {
@@ -139,7 +142,7 @@ main .intro {
             align-items: center;
         }
         .services-info {
-          font-size: 1.5rem;
+          font-size: 1.2rem;
         }
 
         /* BLOG */
@@ -211,21 +214,21 @@ footer section {
   margin: 0 1rem 0 1rem;
 }
 .company {
-   font-size: 6rem;
+   font-size: 3rem;
 }
 
 .quick-links {
-   font-size: 2rem;
+   font-size: 1.5rem;
 }
 .quick-links strong {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .footer-text {
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 .payment {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 }
 
