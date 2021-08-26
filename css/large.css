@@ -19,15 +19,13 @@
         margin-left: 10rem;
         margin-right: 10rem;
         margin-bottom: 1.5rem;
-      
        } 
-
        
    /* MAIN ENDS */
    
    /* GENERAL */
    button {
-    width: 20%;
+    width: 15%;
     font-size: 1rem; 
 }
 input[type="text"] {
@@ -60,8 +58,7 @@ input[type="text"] {
 .features {
     padding: 2rem;
    } 
-   
- 
+    
    /* SOFA */
    .sofa-details {
        text-align: center;
