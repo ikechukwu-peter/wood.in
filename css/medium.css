@@ -1,4 +1,5 @@
-@media only screen and  (min-width: 768px){
+
+ @media only screen and  (min-width: 768px){
   img{
     object-fit: fill;
   }
@@ -95,7 +96,6 @@ font-size: 1.2rem;
        .collections button {
          width: 50%;
          font-size: 0.7rem
-  
        }
        .collections div p {
          font-size: 1.2rem;

@@ -8,26 +8,24 @@
     }
     /* NAVBAR ENDS */
     .intro-text {
-    margin-top: 3rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-bottom: 1.5rem;
-    font-size: 2.5rem;
+        margin-top: 3rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-bottom: 1.5rem;
+        font-size: 2.5rem;
      
       }
       .intro-info {
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-bottom: 1.5rem;
-      
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-bottom: 1.5rem;
        } 
-
        
    /* MAIN ENDS */
    
    /* GENERAL */
    button {
-    width: 20%;
+    width: 15%;
     font-size: 1rem; 
 }
 input[type="text"] {
@@ -60,8 +58,7 @@ input[type="text"] {
 .features {
     padding: 2rem;
    } 
-   
-  
+    
    /* SOFA */
    .sofa-details {
        text-align: center;
@@ -80,7 +77,7 @@ input[type="text"] {
    
    .test-p {
        font-size: 1.5rem;
-       margin: 1rem 3rem;
+       margin: 1rem 9rem;
    }
    .sofa-details p {
        font-size: 1.5rem;
@@ -88,12 +85,7 @@ input[type="text"] {
    .collections div{
        font-size: 1.2rem;
    }
-   .col-images div img {
-       width: 30rem;
-       height: 70vh;
-   }
-   
-   .ul-block{
+      .ul-block{
        flex-direction: column;
        font-size: 1.3rem;
    }
