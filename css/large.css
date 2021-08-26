@@ -1,4 +1,7 @@
 @media only screen and  (min-width: 1024px){
+    img{
+        object-fit: scale-down;
+      }
       /* NABAR */
       .logo {
         font-size: 2.2rem;  
@@ -18,4 +21,40 @@
         margin-bottom: 1.5rem;
       
        } 
+
+       
+   /* MAIN ENDS */
+   
+   /* GENERAL */
+   button {
+    width: 20%;
+    font-size: 1rem; 
+}
+input[type="text"] {
+    width: 25%;
+}
+.scroll {
+    width: 5%;
+    
+  }
+/* COLLECTIONS */
+.collections button {
+    width: 80%;
+    font-size: 1rem; 
+}
+.products {
+    font-size: 1.6rem;
+}
+.sofa-text{
+    font-size: 2rem;
+}
+.large-strong {
+    font-size: 1.8rem;
+}
+.services-info {
+    font-size: 1.6rem;
+}
+.services div div strong i {
+    font-size: 3rem;
+}
 }
