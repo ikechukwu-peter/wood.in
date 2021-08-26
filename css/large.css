@@ -27,7 +27,7 @@
    
    /* GENERAL */
    button {
-   width: 15%;
+    width: 20%;
     font-size: 1rem; 
 }
 input[type="text"] {
@@ -61,11 +61,7 @@ input[type="text"] {
     padding: 2rem;
    } 
    
-   .discount-image {
-       height: 75vh;
-       width: 62rem;
-   }
-   
+  
    /* SOFA */
    .sofa-details {
        text-align: center;
@@ -83,14 +79,14 @@ input[type="text"] {
    }
    
    .test-p {
-       font-size: 1rem;
-       margin: 1rem 2rem;
+       font-size: 1.5rem;
+       margin: 1rem 3rem;
    }
    .sofa-details p {
-       font-size: 1.2rem;
+       font-size: 1.5rem;
    }
    .collections div{
-       font-size: 1rem;
+       font-size: 1.2rem;
    }
    .col-images div img {
        width: 30rem;
