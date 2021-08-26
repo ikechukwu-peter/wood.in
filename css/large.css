@@ -81,32 +81,4 @@ input[type="text"] {
    .col-images {
    justify-content: space-around;
    }
-   
-   .test-p {
-       font-size: 1.5rem;
-       margin: 1rem 9rem;
-   }
-   .sofa-details p {
-       font-size: 1.5rem;
-   }
-   .collections div{
-       font-size: 1.2rem;
-   }
-   .col-images div img {
-       width: 30rem;
-       height: 70vh;
-   }
-   
-   .ul-block{
-       flex-direction: column;
-       font-size: 1.3rem;
-   }
-   
-   .cta {
-       width: 10%;
-   }
-   .quick-links strong {
-       font-size: 1rem;
-   }
-   
 }
