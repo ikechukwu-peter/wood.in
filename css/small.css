@@ -240,22 +240,11 @@ transition: all 0.4s ease-in;
 .bold {
   font-size: 1rem;
 }
-
-<<<<<<< HEAD
 .dis-block {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.dis-block button{
-  width: 50%;
-}
-=======
-  .dis-block {
-    display: block;
-    margin-left: 17rem;
-  }
->>>>>>> parent of b8aa26c (fix: viewport)
   .btn-max {
     height: 35px;
     width: 50%;
