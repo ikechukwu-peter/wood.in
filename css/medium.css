@@ -57,18 +57,18 @@ button {
 main .intro {
     flex-direction: row
  }
-   .intro-text {
-        margin-top: 3.5rem;
-        font-size: 1.5rem;
-        margin-right: 2.5rem;
-        margin-left: 2.5rem;
-      }
+.intro-text {
+margin-top: 3.5rem;
+font-size: 1.5rem;
+margin-right: 2.5rem;
+margin-left: 2.5rem;
+}
       
 .intro-info {
-    margin-right: 6rem;
-    margin-left: 6rem;
-    font-size: 1.2rem;
-   }
+margin-right: 6rem;
+margin-left: 6rem;
+font-size: 1.2rem;
+}
   
     .intro-elem {
       margin: 10rem 3rem;
@@ -79,7 +79,7 @@ main .intro {
 }
 
 .intro-image {
-  width: 54%;
+  width: 24%;
 }
 /* COLLECTIONS */
    .collection-image{
