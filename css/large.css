@@ -77,8 +77,4 @@ input[type="text"] {
     .service-text button {
        font-size: 1rem;
    }
-   
-   .col-images {
-   justify-content: space-around;
-   }
-}
+ }
