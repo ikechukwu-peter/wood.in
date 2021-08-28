@@ -133,7 +133,7 @@ font-weight: 600;
 transition: 0.4s;
 padding: 8px 22px;
 }
-.menu ul li a.is-active, .menu ul li a:hover, .icons-menu i:hover{
+.menu ul li a.is-active, .menu ul li a:hover{
 background-color: var(--accent-color);
 }
 .icons-menu i{
@@ -224,13 +224,13 @@ transition: all 0.4s ease-in;
 input[type="text"]{
   outline: none;
   background-color: var(--theme-color);
-    border: none;
-    height: 35px;
-    width: 40%;
-    border-radius: 50px;
-    box-shadow: 0 4px 4px -3px var(--accent-color);
-    -moz-box-shadow: 0 4px 4px -3px var(--accent-color);
-    -webkit-box-shadow: 0 4px 4px -3px var(--accent-color); 
+  border: none;
+  height: 35px;
+  width: 40%;
+  border-radius: 50px;
+  box-shadow: 0 4px 4px -3px var(--accent-color);
+  -moz-box-shadow: 0 4px 4px -3px var(--accent-color);
+  -webkit-box-shadow: 0 4px 4px -3px var(--accent-color); 
 }
 
 img {
