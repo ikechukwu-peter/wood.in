@@ -26,24 +26,35 @@
     <div class="preloader">
         <h1 style="font-family: 'Sacramento', cursive;" class="preloader-text"></h1>
     </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <strong>Sorry this functionality is not yet available, click on X or outside of this to close.</strong>
+        </div>
+
+    </div>
     <nav>
         <div class="container">
             <h1 class="logo">wood.In</h1>
             <div class="hamburger"> <span></span> <span></span> <span></span> </div>
             <div class="menu">
                 <ul data-aos="fade-up-right">
-                    <li class=""><a href="#" class="is-active">HOME</a> </li>
-                    <li class=""><a href="#">SHOP <i class="fa fa-arrow-down"></i></a></li>
-                    <li class=""><a href="#">BLOG</a></li>
-                    <li class=""><a href="#">CONTACT US</a></li>
+                    <li class=""><a href="#home" class="is-active links">HOME</a> </li>
+                    <li class=""><a href="#shop" class="links">SHOP <i class="fa fa-arrow-down"></i></a></li>
+                    <li class=""><a href="#blog" class="links">BLOG</a></li>
+                    <li class=""><a href="#contact" class="links">CONTACT US</a></li>
                 </ul>
             </div>
-            <div class="icons-menu"> <span class=""><i class="fa fa-search "></i></span> <span class=""><i
-                        class="fa fa-cart-plus "></i></span> </div>
+            <div class="icons-menu"> <span class=""><i class="fa fa-search modal-pop "></i></span> <span class=""><i
+                        class="fa fa-cart-plus modal-pop"></i></span> </div>
         </div>
     </nav>
     <main>
-        <section class="intro">
+        <section class="intro" id="home">
             <div class="intro-elem" data-aos="fade-down-down">
                 <p class="text-secondary intro-text">Complete your space with a <span class="text-theme"
                         style="font-family: 'Sacramento', cursive;">wood.in</span> </p>
@@ -54,7 +65,7 @@
                 <figure> <img src="https://i.ibb.co/XDNJMfH/frontier.png" alt="A picture of a luxury chair"> </figure>
             </div>
         </section>
-        <section class="collections">
+        <section class="collections" id="shop">
             <p class="text-secondary products" data-aos="zoom-in">Our latest products</p> <strong
                 class="text-secondary space-bottom products-title large-strong" data-aos="zoom-in-right">COMFORT
                 COLLECTION</strong>
@@ -112,7 +123,8 @@
                 </div>
             </div>
         </section>
-        <section class="blog"> <strong class="text-secondary space-bottom space large-strong">OUR BLOG</strong>
+        <section class="blog" id="blog"> <strong class="text-secondary space-bottom space large-strong">OUR
+                BLOG</strong>
             <div class="blog-image">
                 <div class="feature" data-aos="fade-down"> <img src="https://i.ibb.co/pP1VHkj/blog1.png"
                         alt="Chairs in a home" class="img-sub"> </div>
@@ -169,7 +181,8 @@
                     <p class=" services-info text-secondary"> Ratings <span class="fa fa-star checked text-dark"></span>
                         <span class="fa fa-star checked text-dark"></span> <span
                             class="fa fa-star checked text-dark"></span> <span
-                            class="fa fa-star checked text-dark"></span> </p>
+                            class="fa fa-star checked text-dark"></span>
+                    </p>
                 </div>
                 <div> <img data-aos="fade-up-right"
                         src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGdpcmx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
@@ -180,7 +193,8 @@
                     <p class=" services-info text-secondary"> Ratings <span class="fa fa-star checked text-dark"></span>
                         <span class="fa fa-star checked text-dark"></span> <span
                             class="fa fa-star checked text-dark"></span> <span
-                            class="fa fa-star checked text-dark"></span> </p>
+                            class="fa fa-star checked text-dark"></span>
+                    </p>
                 </div>
                 <div> <img data-aos="zoom-in-left"
                         src="https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fG1hbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
@@ -199,7 +213,7 @@
             <div class="`wrapper"> <input type="text"> <button class=" cta">SUBSCRIBE</button> </div>
         </section>
     </main>
-    <footer> <button class="scroll"><i class="fa fa-arrow-up"></i></button>
+    <footer id="contact"> <button class="scroll"><i class="fa fa-arrow-up"></i></button>
         <section>
             <div>
                 <div class="company text-secondary" style="font-family: 'Sacramento', cursive;">wood.in</div>

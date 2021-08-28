@@ -30,7 +30,49 @@ body {
   --accent-color: #B98366;
   --secondary-color: #43200d;
   --light: #f5d2bf;
+  --danger: red;
 }
+
+/* MODAL */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: var(--light);
+  margin: 30% auto;
+  padding: 20px;
+  border: 1px solid var(--secondary-color);
+  width: 80%;
+}
+
+
+/* The Close Button */
+.close {
+  color: var(--danger);
+  float: right;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: var(--secondary-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+/* MODAL */
 ul {
   list-style: none;
   margin: 0;
@@ -152,6 +194,9 @@ width: 100%;
 .icons-menu span i {
 display: block;
 padding: .6rem .5rem;
+}
+.icons-menu span i:hover{
+  cursor: pointer;
 }
 .menu.is-active{
 display: flex;
